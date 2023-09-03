@@ -8,7 +8,6 @@ export class DemoDraw extends HTMLElement {
     c.style.height = "100%";
     this.appendChild(c);
     this.canvas = c;
-    c.redraw();
 
     // マウスやタッチされた場所
     let mx = 0;
@@ -51,6 +50,8 @@ export class DemoDraw extends HTMLElement {
       my = y;
       c.redraw();
     };
+    c.redraw();
+
     /*
     if (opts) {
       for (const name in opts) {
