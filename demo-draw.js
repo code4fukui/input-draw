@@ -43,7 +43,7 @@ export class DemoDraw extends HTMLElement {
       // 画面中央に文字
       g.setFontSize(cw / 20);
       g.setColorHSL(0, 0.5, 0);
-      g.fillTextCenter("egcanvas.js", cx, cy);
+      g.fillTextCenter("demo-draw.js", cx, cy);
     };
     // マウスやタッチで再描画
     c.onuimove = (x, y) => {
