@@ -1,0 +1,14 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+
+<script type="module" src="./demo-draw.js"></script>
+
+<button id=btnget>get</button>
+<textarea id=res></textarea>
+
+<demo-draw style="display:block;width:100%;height:300px;" id=draw></demo-draw>
+
+<script type="module">
+btnget.onclick = () => {
+  res.value = draw.value;
+};
+</script>

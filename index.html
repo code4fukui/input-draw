@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>input-draw demo</title>
+</head><body>
+<h1>input-draw demo</h1>
+
+<script type="module" src="./input-draw.js"></script>
+
+<input id=in_color type=color>
+<select id=sel_width>
+<option>1</option>
+<option>2</option>
+<option>5</option>
+<option>10</option>
+<option>20</option>
+<option>50</option>
+</select>
+<button id=btn_clear>clear</button>
+
+<input-draw style="display:block;width:100%;height:300px;" color=black pen-width=1 id=draw></input-draw>
+
+<button id=btn_get>get</button>
+<button id=btn_set>set</button><br>
+<br>
+<textarea id=res style="width:90vw;height:8em;"></textarea>
+
+<script type="module">
+btn_get.onclick = () => {
+  res.value = draw.value;
+};
+btn_set.onclick = () => {
+  draw.value = res.value;
+};
+btn_clear.onclick = () => {
+  draw.clear();
+};
+sel_width.onchange = () => draw.setAttribute("pen-width", sel_width.value);
+in_color.onchange = () => draw.setAttribute("color", in_color.value);
+</script>
+
+<br>
+<a href=https://github.com/code4fukui/input-draw/>src on GitHub</a>
+</body></html>
