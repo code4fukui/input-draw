@@ -1,5 +1,7 @@
 # input-draw
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 `input-draw` is a custom HTML element that allows users to draw using their mouse or touch screen.
 
 ## Demo

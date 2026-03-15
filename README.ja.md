@@ -1,6 +1,6 @@
 # input-draw
 
-input-draw は、マウスやタッチによる描画が可能なHTMLの拡張タグです。描画結果はエンコードデータプロトコルで保存されます。
+`input-draw`は、マウスやタッチスクリーンで描画できるカスタムHTMLタグです。描画結果はデータURLで取得できます。
 
 ## デモ
 https://code4fukui.github.io/input-draw/
