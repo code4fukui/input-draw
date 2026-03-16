@@ -2,7 +2,7 @@
 
 > 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-`input-draw` is a custom HTML element that allows users to draw using their mouse or touch screen.
+`input-draw` is a custom HTML element that allows users to draw using their mouse or touch screen. The drawing data can be accessed as a data URL.
 
 ## Demo
 - https://code4fukui.github.io/input-draw/
@@ -19,4 +19,4 @@
 ```
 
 ## License
-MIT License
+MIT License — see [LICENSE](LICENSE).

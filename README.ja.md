@@ -1,6 +1,6 @@
 # input-draw
 
-`input-draw`は、マウスやタッチスクリーンで描画できるカスタムHTMLタグです。描画結果はデータURLで取得できます。
+`input-draw`は、マウスやタッチスクリーンで描画できるカスタムHTMLエレメントです。描画内容はデータURLで取得できます。
 
 ## デモ
 https://code4fukui.github.io/input-draw/
@@ -9,6 +9,7 @@ https://code4fukui.github.io/input-draw/
 - マウスやタッチによる描画
 - 線の色や太さの設定
 - 描画内容のデータURL取得
+- 描画のクリア
 
 ## 使い方
 ```html
